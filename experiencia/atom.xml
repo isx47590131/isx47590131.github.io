@@ -4,13 +4,13 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Hank Quinlan's Blog</title>
-	<link href="http://isx47590131.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://isx47590131.github.io/blog"/>
+	<title>Experiencias de Arnau Esteban</title>
+	<link href="http://isx47590131.github.io/experiencia/atom.xml" rel="self"/>
+	<link href="http://isx47590131.github.io/experiencia"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://isx47590131.github.io/blog</id>
+	<id>http://isx47590131.github.io/experiencia</id>
 	<author>
-		<name>Hank Quinlan</name>
+		<name>Arnau Esteban</name>
 		<email>hankquinlanhub@gmail.com</email>
 	</author>
 
