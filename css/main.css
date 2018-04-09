@@ -34,7 +34,7 @@ footer {
 }
 footer img {
     max-width: 70px;
-    margin-left: 200px;
+    margin-left: 50%;
     transition: all 0.5s
 }
 
