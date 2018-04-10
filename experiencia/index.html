@@ -7,24 +7,6 @@ title: Mi recorrido laboral
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span>
-			{% assign m = page.date | date: "%-m" %}
-			{{ page.date | date: "%-d" }}
-			{% case m %}
-			{% when '1' %}Enero
-			{% when '2' %}Febrero
-			{% when '3' %}Marzo
-			{% when '4' %}Abril
-			{% when '5' %}Mayo
-			{% when '6' %}Junio
-			{% when '7' %}Julio
-			{% when '8' %}Agosto
-			{% when '9' %}Septiembre
-			{% when '10' %}Octubre
-			{% when '11' %}Noviembre
-			{% when '12' %}Diciembre
-			{% endcase %}
-			{{ page.date | date: "%Y" }}
-	        </span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
