@@ -1,3 +1,4 @@
 name: Arnau Esteban, Escola del Treball
 markdown: kramdown
-permalink: /experiencia/:year/:month/:day/:title:/year:/month:/day
+paginate: 5
+paginate_path: "/experiencia/page:num/"
