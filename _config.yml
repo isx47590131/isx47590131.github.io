@@ -1,3 +1,14 @@
 name: Arnau Esteban, Escola del Treball
 markdown: kramdown
 permalink: /experiencia/:year/:month/:day/:title
+
+
+# --- Navigation bar options --- #
+# List of links in the navigation bar
+navbar-links:
+  Inicio: "/"
+  Acerca de mi: "/about"
+  Conocimientos:
+    - Estudios: "/cv"
+    - Otros Conocimientos  "/conocimientos"
+  Experiencia: "/experiencia"
