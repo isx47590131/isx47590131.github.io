@@ -1,14 +1,9 @@
 name: Arnau Esteban, Escola del Treball
 markdown: kramdown
 permalink: /experiencia/:year/:month/:day/:title
+email: arnauesteban@hotmail.com
+baseurl: "" 
+url: "http://isx47590131.github.io" 
+github_username: isx47590131
 
 
-# --- Navigation bar options --- #
-# List of links in the navigation bar
-navbar-links:
-  Inicio: "/"
-  Acerca de mi: "/about"
-  Conocimientos:
-    - Estudios: "/cv"
-    - Otros Conocimientos  "/conocimientos"
-  Experiencia: "/experiencia"
