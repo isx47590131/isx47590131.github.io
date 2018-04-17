@@ -56,6 +56,9 @@ ul.posts li {
 }
 
 /* nav bar */
+div.navbar {
+    text-align: center;
+}
 ul.nav {
     list-style-type: none;
     margin: 0;
