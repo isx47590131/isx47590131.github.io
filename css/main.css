@@ -85,3 +85,9 @@ li.nav a:hover {
 }
 
 /* CONTACTO */
+
+
+/* ERROR 404 */
+div.err, p.err{
+    text-align:center !important;
+}
