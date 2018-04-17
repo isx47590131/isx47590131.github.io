@@ -88,6 +88,19 @@ li.nav a:hover {
 div.contact {
     text-align:center !important;
 }
+.button {
+    background-color: #333;
+    border: radius;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
 
 /* ERROR 404 */
 div.err, p.err{
