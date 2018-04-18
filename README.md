@@ -49,7 +49,7 @@ Una desventaja es la poca flexibilidad que te permite, ya que las funciones usad
 
 Para empezar debes registrarte en [GitHub](https://github.com/join?source=header-home "registrate aqui") y crear un repositorio, ya sea privado o publico, aunque recomiendan publico (al ser visitado por cualquiera). El nombre del repositorio debe ser del siguiente  estilo: *nombre.github.io* 
 
-Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
+[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
 
 
 ### **Paso 2**
@@ -95,7 +95,8 @@ git remote add NombreRemote git@github.com:usuario/nombre.github.io.git
 ```
 
 
-Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
+[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
+
 
 ### **Paso 3**
 
@@ -112,7 +113,7 @@ _config
 ```
 
 
-Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
+[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
 
 
 ### **Paso 4**
@@ -145,7 +146,7 @@ title: Acerca de Arnau Esteban
 ```
 
 
-Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
+[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
 
 ### **Paso 5**
 
@@ -199,7 +200,7 @@ Mi código:
 Como podemos observar disponemos de varias funciones como `{{ page.title }}`, las quales resultan muy utiles para ahorrar tiempo y simplificar el codigo. Os dejo un enlace donde explican la mayoría de [FUNCIONES](https://learn.cloudcannon.com/jekyll-cheat-sheet/ "libreria funciones")
 
 
-Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
+[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
 
 ### **Paso 6**
 
@@ -222,7 +223,7 @@ title: Arnau Esteban Contreras
 
 
 
-Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
+[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
 
 
 ### **Paso 7**
@@ -250,6 +251,10 @@ footer img:hover{
 
 ```
 
+
+[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
+
+
 ### Extras
 
 En este apartado cuento los consejos que os pueden servir a la hora de editar vuestra web y algunos de los problemas que me han surjido al intentarlo hacer yo.
@@ -260,5 +265,5 @@ En este apartado cuento los consejos que os pueden servir a la hora de editar vu
 
 3. Si te has quedado con alguna duda o quieres saber más sobre cómo crear tu página haz click [aqui](http://jmcglone.com/guides/github-pages/ "Guia en ingles"), es una guia más extensa en ingles.
 
-Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
+[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
 
