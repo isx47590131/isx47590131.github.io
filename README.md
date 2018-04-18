@@ -36,6 +36,7 @@ Una desventaja es la poca flexibilidad que te permite, ya que las funciones usad
 | [Paso 4](#paso-4) | Adaptar el entorno de trabajo |
 | [Paso 5](#paso-5) | Readme y gitignore |
 | [Paso 6](#paso-6) | Readme y gitignore |
+| [Extras](#extras) | Consejos y problemas |
 
 
 -----
@@ -153,6 +154,7 @@ Icono ejemplo:
 ![alt text](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/instagram.png "logo insta")
 
 
+Mi código:
 
 ```
 <!DOCTYPE html>
@@ -218,3 +220,13 @@ title: Arnau Esteban Contreras
 
 
 Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png)](#documentación-realización-de-la-web)
+
+
+
+### Extras
+
+En este apartado cuento los consejos que os pueden servir a la hora de editar vuestra web y algunos de los problemas que me han surjido al intentarlo hacer yo.
+
+1. En [paso 2](#paso-2) me surjieron varios errores al realizar el `sudo gem install ____`, y el consejo que os puedo dar es hacerlo todo con el mismo usuario y en el mismo directorio.
+
+2. Las funciones de *jekyll* si teneis pensado usarlas mirar bien esta [guia](https://learn.cloudcannon.com/jekyll-cheat-sheet/), ya que no deja crear nuevas (al menos no lo he conseguido).
