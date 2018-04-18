@@ -122,7 +122,7 @@ mkdir contact
 mkdir cv
 ```
 
-Una vez tengas la estructura de directorios debes editar/mirar el fichero `_layouts/default` que contiene la estructura por defecto de las páginas web que hagamos. Si queremos podemos crear más de una. Indicaremos al principio de cada documento que *layout* usamos en cada página.
+Una vez tengas la estructura de directorios debes editar/mirar el fichero `_layouts/default.html` que contiene la estructura por defecto de las páginas web que hagamos. Si queremos podemos crear más de una. Indicaremos al principio de cada documento que *layout* usamos en cada página.
 
 Esto es un ejemplo de como indicar que *layout* y *title*  usamos:
 ``` 
@@ -131,4 +131,68 @@ layout: default
 title: Acerca de Arnau Esteban
 ---
 ```
+
+### **Paso 5**
+
+Redactar nuestro `_layouts/default.html` y dejarlo a nuestro gusto. 
+
+
+
+```
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<link rel="icon" href="/img/github_lite.png" type="image/x-icon">
+
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<div class="navbar">
+	    		<ul class="nav">
+	        		<li class="nav"><a href="/">Inicio</a></li>
+		        	<li class="nav"><a href="/about">Acerca de mí</a></li>
+	        		<li class="nav"><a href="/cv">Conocimientos</a></li>
+	        		<li class="nav"><a href="/experiencia">Experiencia</a></li>
+	    		</ul>
+			</div>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container  https://fadado.github.io/ASIX/MP9/-->
+			<footer>
+	    		<ul>
+	        		<li><a href="/contact" target="_blank" title="Envíame un correo"><img class="icon" alt="gmail" src="/img/gmail.png"></a></li>
+	        		<li><a href="https://github.com/isx47590131" target="_blank" title="Mi repositorio de github"><img class="icon" alt="github" src="/img/github.png"></a></li>
+	        		<li><a href="https://www.instagram.com/mixaritos/"target="_blank" title="Mi instagram"><img class="icon" alt="instagram" src="/img/instagram.png"></a></li>
+	        		<li><a href="https://www.linkedin.com/in/arnau-esteban-b2b194131/"target="_blank" title="Mi linkedin"><img class="icon" alt="linkedin" src="/img/linkedin.png"></a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
+
+```
+
+Como podemos observar disponemos de varias funciones como `{{ page.title }}`, las quales resultan muy utiles para ahorrar tiempo y simplificar el codigo. Os dejo un enlace donde explican la mayoría de [FUNCIONES](https://learn.cloudcannon.com/jekyll-cheat-sheet/ "libreria funciones")
+
+### **Paso 6**
+
+Ahora en cada directorio creado en el paso anterior (que queramos mostrar página web) debemos editar/crear por los menos el *index.html*, en el qual indicamos en la cabezera el *layout* y *title* y a continuación editamos el *body* del documento en html y nos despreocupamos del *head* y el *footer* ya que esta por defecto en `_layouts/default`.
+
+Aqui dejo el código mi página de inicio como ejemplo simple:
+
+```
+---
+layout: default
+title: Arnau Esteban Contreras
+---
+<div class="blurb">
+	<h1>Arnau Esteban Contreras</h1>
+	<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me.
+		<a href="/about">Read more about my life...</a></p>
+</div>
+```
+
 
