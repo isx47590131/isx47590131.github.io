@@ -101,6 +101,9 @@ div.contact {
     cursor: pointer;
 }
 
+textarea {
+    resize: none;
+}
 
 /* ERROR 404 */
 div.err, p.err{
