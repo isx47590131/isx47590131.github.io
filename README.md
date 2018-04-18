@@ -30,13 +30,13 @@ Una desventaja es la poca flexibilidad que te permite, ya que las funciones usad
 
 |     Paso      | Tema          |
 | ------------- |-------------- |
-|[Paso 1](#Paso_1) | Creación repositiorio  |
-| [Paso 2](#Paso_2) | Instalar Jekill       |
-| [Paso 3](#Paso_3) | Readme y gitignore     |
+|[Paso 1](#Paso-1) | Creación repositiorio  |
+| [Paso 2](#**Paso-2**) | Instalar Jekill       |
+| [Paso 3](#Paso-3) | Readme y gitignore     |
 
 
 
-### **Paso 1**
+### Paso 1
 
 Para empezar debes registrarte en GitHub y crear un repositorio, ya sea privado o publico, aunque recomiendan publico (al ser visitado por cualquiera). El nombre del repositorio debe ser del siguiente  estilo: *nombre.github.io* 
 
