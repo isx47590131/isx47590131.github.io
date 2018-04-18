@@ -9,7 +9,7 @@
 **Descripción:** El proyecto consiste en la creación de una página web en la que te presentes como persona, y sirva como 
 curriculum. Esta web esta constituida  por github pages, jekyll y Markdown principalmente, que conjuntamente, formaran plantillas de documentos html para ser visitados por los usuarios. 
 
-Una de las principales ventajas es la facilidad/comodidad que esto supone a la hora de crear paginas web. 
+Una de las principales ventajas es la facilidad/comodidad que esto supone a la hora de crear páginas web. 
 Una desventaja es la poca flexibilidad que te permite, ya que las funciones usadas por jekyll son limitadas.
 
 
@@ -105,7 +105,7 @@ _config
 
 ### **Paso 4**
 
-En este paso adaptaremos la estructura creada por defecto a nuestras necessidades. En mi caso no usare un blog, pero usare las funciones para poner en cada entrada una experiencia laboral. Además tendrá un inicio, acerca de mi, conocimientos y una pagina para contactarme. 
+En este paso adaptaremos la estructura creada por defecto a nuestras necesidades. En mi caso no usare un blog, pero usare las funciones para poner en cada entrada una experiencia laboral. Además tendrá un inicio, acerca de mí, conocimientos y una página para contactarme. 
 Todo esto se puede hacer tanto desde la web como desde terminal.
 
 ```
@@ -122,4 +122,13 @@ mkdir contact
 mkdir cv
 ```
 
+Una vez tengas la estructura de directorios debes editar/mirar el fichero `_layouts/default` que contiene la estructura por defecto de las páginas web que hagamos. Si queremos podemos crear más de una. Indicaremos al principio de cada documento que *layout* usamos en cada página.
+
+Esto es un ejemplo de como indicar que *layout* y *title*  usamos:
+``` 
+---
+layout: default
+title: Acerca de Arnau Esteban
+---
+```
 
