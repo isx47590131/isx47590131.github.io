@@ -30,9 +30,9 @@ Una desventaja es la poca flexibilidad que te permite, ya que las funciones usad
 
 |     Paso      | Tema          |
 | ------------- |-------------- |
-|[Paso 1](#Paso-1) | Creación repositiorio  |
-| [Paso 2](#**Paso-2**) | Instalar Jekill       |
-| [Paso 3](#Paso-3) | Readme y gitignore     |
+|[Paso 1](#paso-1) | Creación repositiorio  |
+| [Paso 2](#**paso-2**) | Instalar Jekill       |
+| [Paso 3](#paso-3) | Readme y gitignore     |
 
 
 
