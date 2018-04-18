@@ -233,5 +233,7 @@ En este apartado cuento los consejos que os pueden servir a la hora de editar vu
 
 2. Las funciones de *jekyll* si teneis pensado usarlas mirar bien esta [guia](https://learn.cloudcannon.com/jekyll-cheat-sheet/), ya que no deja crear nuevas (al menos no lo he conseguido).
 
+3. Si te has quedado con alguna duda o quieres saber más sobre cómo crear tu página haz click [aqui](http://jmcglone.com/guides/github-pages/ "Guia en ingles"), es una guia más extensa en ingles.
+
 Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png)](#documentación-realización-de-la-web)
 
