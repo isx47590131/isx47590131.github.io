@@ -26,20 +26,30 @@ Una desventaja es la poca flexibilidad que te permite, ya que las funciones usad
 
 # Documentación realización de la web
 
-## **Paso 1**
+## Indice
+
+|     Paso      | Tema          |
+| ------------- |-------------- |
+|[Paso 1](#Paso_1) | Creación repositiorio  |
+| [Paso 2](#Paso_2) | Instalar Jekill       |
+| [Paso 3](#Paso_3) | Readme y gitignore     |
+
+
+
+### **Paso 1**
 
 Para empezar debes registrarte en GitHub y crear un repositorio, ya sea privado o publico, aunque recomiendan publico (al ser visitado por cualquiera). El nombre del repositorio debe ser del siguiente  estilo: *nombre.github.io* 
 
-## **Paso 2**
+### **Paso 2**
 
 Para continuar hay que instalar Jekyll en nuestro ordenador:
 
 ```
-	sudo dnf install rubygems rubygems-devel ruby-devel
-	sudo dnf install redhat-rpm-config
-	sudo dnf install gcc-c++
-	sudo gem install bundler
-	sudo gem install jekyll
+sudo dnf install rubygems rubygems-devel ruby-devel
+sudo dnf install redhat-rpm-config
+sudo dnf install gcc-c++
+sudo gem install bundler
+sudo gem install jekyll
 ```
 
 Seguidamente escojemos el directorio de trabajo (o lo creamos) y con jekyll creamos el directorio, que debe llamarse igual que el repositorio.
@@ -51,6 +61,7 @@ jekyll new nombre.github.io
 ```
 
 Una vez creado entramos y lo inicializamos en Git y lo configuramos con nuestra cuenta de GitHub.
+Si miramos en el directorio que hemos creado con *Jekyll* vamos que ya tenemos algunos archivos, los cuales nos serviran de base.
 
 ```
 cd nombre.github.io
@@ -70,4 +81,11 @@ cat ~/.ssh/id_rsa.pub | clip
 git remote add NombreRemote git@github.com:usuario/nombre.github.io.git
 
 ```
+
+
+### **Paso 3**
+
+Ahora toca crear el `README`, que han de tener todos los repositorios *git*, el cual debe contener un poco de que trata el repositiorio (como mínimo), informacion de contacto, etc.
+
+Tambien es recomendable crear un fichero `.gitignore` donde se incluye el nombre de todos los ficheros y directorios que no queremos que se tengan en cuenta a la hora de commitear, ni que se suban al repositorio web de *git*.
 
