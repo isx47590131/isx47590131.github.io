@@ -13,7 +13,7 @@ Una de las principales ventajas es la facilidad/comodidad que esto supone a la h
 Una desventaja es la poca flexibilidad que te permite, ya que las funciones usadas por jekyll son limitadas.
 
 
-##Tecnologias que contiene:
+## Tecnologias que contiene:
 
 - GitHub pages
 - HTML
@@ -26,6 +26,20 @@ Una desventaja es la poca flexibilidad que te permite, ya que las funciones usad
 
 # Documentación realización de la web
 
+## **Paso 1**
 
+Para empezar debes registrarte en GitHub y crear un repositorio, ya sea privado o publico, aunque recomiendan publico (al ser visitado por cualquiera). El nombre del repositorio debe ser del siguiente  estilo: *nombre.github.io* 
+
+## **Paso 2**
+
+Para continuar hay que instalar Jekyll en nuestro ordenador:
+
+```
+	sudo dnf install rubygems rubygems-devel ruby-devel
+	sudo dnf install redhat-rpm-config
+	sudo dnf install gcc-c++
+	sudo gem install bundler
+	sudo gem install jekyll
+```
 
 
