@@ -28,7 +28,7 @@ Una desventaja es la poca flexibilidad que te permite, ya que las funciones usad
 
 # Documentación realización de la web
 
-## Indice
+## Índice
 
 |     Pasos      | Temas         |
 | ------------- |-------------- |
@@ -264,6 +264,11 @@ En este apartado cuento los consejos que os pueden servir a la hora de editar vu
 2. Las funciones de *jekyll* si teneis pensado usarlas mirar bien esta [guia](https://learn.cloudcannon.com/jekyll-cheat-sheet/), ya que no deja crear nuevas (al menos no lo he conseguido).
 
 3. Si te has quedado con alguna duda o quieres saber más sobre cómo crear tu página haz click [aqui](http://jmcglone.com/guides/github-pages/ "Guia en ingles"), es una guia más extensa en ingles.
+
+4. Si quieres hacer ya sean tus páginas o tu documentación en *Markdown* (es muy recomendable), te aconsejo que le eches un vistazo a este [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) dónde hay muchas funcionalidades muy bien explicadas.
+
+Para acabar, si tienes cualquier duda [PREGUNTAME!](https://isx47590131.github.io/contact/ "preguna sin miedo").
+
 
 [![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
 
