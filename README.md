@@ -42,4 +42,32 @@ Para continuar hay que instalar Jekyll en nuestro ordenador:
 	sudo gem install jekyll
 ```
 
+Seguidamente escojemos el directorio de trabajo (o lo creamos) y con jekyll creamos el directorio, que debe llamarse igual que el repositorio.
+
+```
+cd directorio/de/trabajo
+jekyll new nombre.github.io
+
+```
+
+Una vez creado entramos y lo inicializamos en Git y lo configuramos con nuestra cuenta de GitHub.
+
+```
+cd nombre.github.io
+git init
+```
+
+Aqui puedes hacerlo de dos modos, uno por http y otro por ssh (es recomendable hacerlo por ssh, ya que es mas comodo y seguro)
+
+```
+#http:
+git remote add NombreRemote https://github.com/usuario/nombre.github.io.git
+
+#ssh (primero se deben crear las claves):
+ssh-keygen -t rsa -C "correo@gmail.com" -b 4096
+cat ~/.ssh/id_rsa.pub | clip
+#Y lo copiamos en: Usuario > Settings > SSH and GPG keys > New SSH key
+git remote add NombreRemote git@github.com:usuario/nombre.github.io.git
+
+```
 
