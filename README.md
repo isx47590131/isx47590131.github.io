@@ -4,6 +4,8 @@
 
 **Id alumno:** isx47590131
 
+**Repositorio personal:**  [![Repo](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/github_lite.png)](https://github.com/isx47590131/)
+
 **Correo:** arnauesteban@hotmail.com
 
 **Descripción:** El proyecto consiste en la creación de una página web en la que te presentes como persona, y sirva como 
