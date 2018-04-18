@@ -28,15 +28,20 @@ Una desventaja es la poca flexibilidad que te permite, ya que las funciones usad
 
 ## Indice
 
-|     Paso      | Tema          |
+|     Pasos      | Temas         |
 | ------------- |-------------- |
 |[Paso 1](#paso-1) | Creación repositiorio  |
-| [Paso 2](#**paso-2**) | Instalar Jekill       |
-| [Paso 3](#paso-3) | Readme y gitignore     |
+| [Paso 2](#paso-2) | Instalar Jekill |
+| [Paso 3](#paso-3) | Readme y gitignore |
+| [Paso 4](#paso-4) | Adaptar el entorno de trabajo |
+| [Paso 5](#paso-5) | Readme y gitignore |
+| [Paso 6](#paso-6) | Readme y gitignore |
 
 
+-----
 
-### Paso 1
+
+### **Paso 1**
 
 Para empezar debes registrarte en GitHub y crear un repositorio, ya sea privado o publico, aunque recomiendan publico (al ser visitado por cualquiera). El nombre del repositorio debe ser del siguiente  estilo: *nombre.github.io* 
 
@@ -85,7 +90,36 @@ git remote add NombreRemote git@github.com:usuario/nombre.github.io.git
 
 ### **Paso 3**
 
-Ahora toca crear el `README`, que han de tener todos los repositorios *git*, el cual debe contener un poco de que trata el repositiorio (como mínimo), informacion de contacto, etc.
+Ahora toca crear el `README`, que han de tener todos los repositorios *git*, el cual debe contener un poco de que trata el repositiorio (como mínimo), informacion de contacto, etc. Debe ser así ya que es "la presentación" de nuestro repositorio.
 
-Tambien es recomendable crear un fichero `.gitignore` donde se incluye el nombre de todos los ficheros y directorios que no queremos que se tengan en cuenta a la hora de commitear, ni que se suban al repositorio web de *git*.
+Tambien es recomendable crear un fichero `.gitignore` donde se incluye el nombre de todos los ficheros y directorios que no queremos que se tengan en cuenta a la hora de commitear, ni que se suban al repositorio web de *git*. Por defecto al crear el repositorio usando *jekyll* nos ha creado uno, que contiene lo siguiente:
+
+```
+_site
+.sass-cache
+.jekyll-metadata
+_config
+
+```
+
+
+### **Paso 4**
+
+En este paso adaptaremos la estructura creada por defecto a nuestras necessidades. En mi caso no usare un blog, pero usare las funciones para poner en cada entrada una experiencia laboral. Además tendrá un inicio, acerca de mi, conocimientos y una pagina para contactarme. 
+Todo esto se puede hacer tanto desde la web como desde terminal.
+
+```
+#creamos directorio de plantillas, css e imagenes
+mkdir _layouts
+mkdir css
+mkdir img
+
+#Renombramos el directorio de los blogs
+mv blog experiencia
+
+#Además creamos los directorios que no hagan falta...
+mkdir contact
+mkdir cv
+```
+
 
