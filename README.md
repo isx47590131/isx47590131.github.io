@@ -45,7 +45,8 @@ Una desventaja es la poca flexibilidad que te permite, ya que las funciones usad
 
 Para empezar debes registrarte en GitHub y crear un repositorio, ya sea privado o publico, aunque recomiendan publico (al ser visitado por cualquiera). El nombre del repositorio debe ser del siguiente  estilo: *nombre.github.io* 
 
-[Volver arriba](#documentación-realización-de-la-web)
+Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png)](#documentación-realización-de-la-web)
+
 
 ### **Paso 2**
 
@@ -90,8 +91,7 @@ git remote add NombreRemote git@github.com:usuario/nombre.github.io.git
 ```
 
 
-[Volver arriba](#documentación-realización-de-la-web)
-
+Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png)](#documentación-realización-de-la-web)
 
 ### **Paso 3**
 
@@ -108,7 +108,7 @@ _config
 ```
 
 
-[Volver arriba](#documentación-realización-de-la-web)
+Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png)](#documentación-realización-de-la-web)
 
 
 ### **Paso 4**
@@ -141,8 +141,7 @@ title: Acerca de Arnau Esteban
 ```
 
 
-[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png)](#documentación-realización-de-la-web)
-
+Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png)](#documentación-realización-de-la-web)
 
 ### **Paso 5**
 
@@ -195,8 +194,7 @@ Icono ejemplo:
 Como podemos observar disponemos de varias funciones como `{{ page.title }}`, las quales resultan muy utiles para ahorrar tiempo y simplificar el codigo. Os dejo un enlace donde explican la mayoría de [FUNCIONES](https://learn.cloudcannon.com/jekyll-cheat-sheet/ "libreria funciones")
 
 
-[Volver arriba](#documentación-realización-de-la-web)
-
+Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png)](#documentación-realización-de-la-web)
 
 ### **Paso 6**
 
@@ -219,5 +217,4 @@ title: Arnau Esteban Contreras
 
 
 
-[Volver arriba](#documentación-realización-de-la-web)
-
+Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png)](#documentación-realización-de-la-web)
