@@ -230,3 +230,6 @@ En este apartado cuento los consejos que os pueden servir a la hora de editar vu
 1. En [paso 2](#paso-2) me surjieron varios errores al realizar el `sudo gem install ____`, y el consejo que os puedo dar es hacerlo todo con el mismo usuario y en el mismo directorio.
 
 2. Las funciones de *jekyll* si teneis pensado usarlas mirar bien esta [guia](https://learn.cloudcannon.com/jekyll-cheat-sheet/), ya que no deja crear nuevas (al menos no lo he conseguido).
+
+Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png)](#documentación-realización-de-la-web)
+
