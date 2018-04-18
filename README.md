@@ -1,8 +1,11 @@
 # Web portafolios Arnau Esteban Contraras - isx47590131.github.io
 
 **Autor:** Arnau Esteban Contreras
+
 **Id alumno:** isx47590131
+
 **Correo:** arnauesteban@hotmail.com
+
 **Descripción:** El proyecto consiste en la creación de una página web en la que te presentes como persona, y sirva como 
 curriculum. Esta web esta constituida  por github pages, jekyll y Markdown principalmente, que conjuntamente, formaran plantillas de documentos html para ser visitados por los usuarios. 
 
