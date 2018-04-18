@@ -19,7 +19,7 @@ a {
 a:hover {
     text-decoration: underline;
 }
-h1 {
+h1 h2 h3 ul.cv {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     margin: 20px auto;
