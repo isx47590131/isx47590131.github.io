@@ -136,8 +136,10 @@ title: Acerca de Arnau Esteban
 
 Redactar nuestro `_layouts/default.html` y dejarlo a nuestro gusto. 
 En mi caso le pongo la barra de navegación y en *footer* las imagenes con los links para ponerse en contacto conmigo. Una web muy recomendable para buscar [iconos](https://www.iconfinder.com/ "web de iconos").
-Por ejemplo:
-![alt text](isx47590131.github.io/img/insta.png "logo insta")
+
+Icono ejemplo:
+
+![alt text](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/instagram.png "logo insta")
 
 
 
