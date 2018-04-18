@@ -267,7 +267,7 @@ En este apartado cuento los consejos que os pueden servir a la hora de editar vu
 
 4. Si quieres hacer ya sean tus páginas o tu documentación en *Markdown* (es muy recomendable), te aconsejo que le eches un vistazo a este [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) dónde hay muchas funcionalidades muy bien explicadas.
 
-Para acabar, si tienes cualquier duda [PREGUNTAME!](https://isx47590131.github.io/contact/ "preguna sin miedo").
+Para acabar, si tienes cualquier duda [PREGUNTAME](https://isx47590131.github.io/contact/ "preguna sin miedo"). O visita mi web [![Mi web](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/github_middle.png "Mi web")](#https://isx47590131.github.io/)
 
 
 [![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
