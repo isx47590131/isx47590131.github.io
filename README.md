@@ -9,10 +9,10 @@
 **Correo:** arnauesteban@hotmail.com
 
 **Descripción:** El proyecto consiste en la creación de una página web en la que te presentes como persona, y sirva como 
-curriculum. Esta web esta constituida  por github pages, jekyll y Markdown principalmente, que conjuntamente, formaran plantillas de documentos html para ser visitados por los usuarios. 
+curriculum. Esta web esta constituida  por *github pages*, *jekyll* y *Markdown* principalmente, que conjuntamente, formaran plantillas de documentos html para ser visitados por los usuarios. 
 
 Una de las principales ventajas es la facilidad/comodidad que esto supone a la hora de crear páginas web. 
-Una desventaja es la poca flexibilidad que te permite, ya que las funciones usadas por jekyll son limitadas.
+Una desventaja es la poca flexibilidad que te permite, ya que las funciones usadas por *jekyll* son limitadas.
 
 
 ## Tecnologias que contiene:
@@ -46,9 +46,9 @@ Una desventaja es la poca flexibilidad que te permite, ya que las funciones usad
 
 ### **Paso 1**
 
-Para empezar debes registrarte en GitHub y crear un repositorio, ya sea privado o publico, aunque recomiendan publico (al ser visitado por cualquiera). El nombre del repositorio debe ser del siguiente  estilo: *nombre.github.io* 
+Para empezar debes registrarte en [GitHub](https://github.com/join?source=header-home "registrate aqui") y crear un repositorio, ya sea privado o publico, aunque recomiendan publico (al ser visitado por cualquiera). El nombre del repositorio debe ser del siguiente  estilo: *nombre.github.io* 
 
-Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png)](#documentación-realización-de-la-web)
+Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
 
 
 ### **Paso 2**
