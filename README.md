@@ -33,11 +33,12 @@ Una desventaja es la poca flexibilidad que te permite, ya que las funciones usad
 |     Pasos      | Temas         |
 | ------------- |-------------- |
 |[Paso 1](#paso-1) | Creación repositiorio  |
-| [Paso 2](#paso-2) | Instalar Jekill |
-| [Paso 3](#paso-3) | Readme y gitignore |
+| [Paso 2](#paso-2) | Instalar *Jekill* |
+| [Paso 3](#paso-3) | Readme y .gitignore |
 | [Paso 4](#paso-4) | Adaptar el entorno de trabajo |
-| [Paso 5](#paso-5) | Readme y gitignore |
-| [Paso 6](#paso-6) | Readme y gitignore |
+| [Paso 5](#paso-5) | *Layouts* |
+| [Paso 6](#paso-6) | Creación de páginas |
+| [Paso 7](#paso-7) | *Css* |
 | [Extras](#extras) | Consejos y problemas |
 
 
@@ -94,7 +95,7 @@ git remote add NombreRemote git@github.com:usuario/nombre.github.io.git
 ```
 
 
-Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png)](#documentación-realización-de-la-web)
+Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
 
 ### **Paso 3**
 
@@ -111,7 +112,7 @@ _config
 ```
 
 
-Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png)](#documentación-realización-de-la-web)
+Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
 
 
 ### **Paso 4**
@@ -144,7 +145,7 @@ title: Acerca de Arnau Esteban
 ```
 
 
-Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png)](#documentación-realización-de-la-web)
+Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
 
 ### **Paso 5**
 
@@ -198,11 +199,11 @@ Mi código:
 Como podemos observar disponemos de varias funciones como `{{ page.title }}`, las quales resultan muy utiles para ahorrar tiempo y simplificar el codigo. Os dejo un enlace donde explican la mayoría de [FUNCIONES](https://learn.cloudcannon.com/jekyll-cheat-sheet/ "libreria funciones")
 
 
-Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png)](#documentación-realización-de-la-web)
+Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
 
 ### **Paso 6**
 
-Ahora en cada directorio creado en el paso anterior (que queramos mostrar página web) debemos editar/crear por los menos el *index.html*, en el qual indicamos en la cabezera el *layout* y *title* y a continuación editamos el *body* del documento en html y nos despreocupamos del *head* y el *footer* ya que esta por defecto en `_layouts/default`.
+Ahora en cada directorio creado en el paso anterior (que queramos mostrar página web) debemos editar/crear por los menos el *index.html*, en el qual indicamos en la cabezera el *layout* y *title* y a continuación editamos el *body* del documento en html y nos despreocupamos del *head* y el *footer* ya que esta por defecto en `_layouts/default.html`.
 
 Aqui dejo el código mi página de inicio como ejemplo simple:
 
@@ -221,9 +222,33 @@ title: Arnau Esteban Contreras
 
 
 
-Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png)](#documentación-realización-de-la-web)
+Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
 
 
+### **Paso 7**
+
+Una vez creada la plantilla de una página web falta añadirle el diseño que nos guste. Actualmente tendremos un *css* como mínimo, creado por *jekyll* en la carpeta de css. Primero de todo debemos asegurarnos que en `_layouts/default.html` (o la plantilla que usemos en su defecto) tengamos esta línea en el *head*: `<link rel="stylesheet" type="text/css" href="/css/main.css">` en caso contrario la añadimos y tendremos todas las páginas que usen el `layout: default` con ese estilo.
+
+Por ejemplo en mi caso quiero que los links inferiores esten centrados, que se giren un poco al pasar por encima y que tengan cierto tamaño:
+
+```
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+    text-align: center;
+}
+footer img {
+    max-width: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    transition: all 0.5s
+}
+
+footer img:hover{ 
+    transform: rotate(20deg);
+}
+
+```
 
 ### Extras
 
@@ -235,5 +260,5 @@ En este apartado cuento los consejos que os pueden servir a la hora de editar vu
 
 3. Si te has quedado con alguna duda o quieres saber más sobre cómo crear tu página haz click [aqui](http://jmcglone.com/guides/github-pages/ "Guia en ingles"), es una guia más extensa en ingles.
 
-Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png)](#documentación-realización-de-la-web)
+Ir al principio:[![Volver arriba](https://github.com/isx47590131/isx47590131.github.io/blob/master/img/up.png "volver arriba")](#documentación-realización-de-la-web)
 
