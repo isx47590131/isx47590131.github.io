@@ -45,6 +45,8 @@ Una desventaja es la poca flexibilidad que te permite, ya que las funciones usad
 
 Para empezar debes registrarte en GitHub y crear un repositorio, ya sea privado o publico, aunque recomiendan publico (al ser visitado por cualquiera). El nombre del repositorio debe ser del siguiente  estilo: *nombre.github.io* 
 
+[Volver arriba](#documentación-realización-de-la-web)
+
 ### **Paso 2**
 
 Para continuar hay que instalar Jekyll en nuestro ordenador:
@@ -88,6 +90,9 @@ git remote add NombreRemote git@github.com:usuario/nombre.github.io.git
 ```
 
 
+[Volver arriba](#documentación-realización-de-la-web)
+
+
 ### **Paso 3**
 
 Ahora toca crear el `README`, que han de tener todos los repositorios *git*, el cual debe contener un poco de que trata el repositiorio (como mínimo), informacion de contacto, etc. Debe ser así ya que es "la presentación" de nuestro repositorio.
@@ -101,6 +106,9 @@ _site
 _config
 
 ```
+
+
+[Volver arriba](#documentación-realización-de-la-web)
 
 
 ### **Paso 4**
@@ -131,6 +139,10 @@ layout: default
 title: Acerca de Arnau Esteban
 ---
 ```
+
+
+[Volver arriba](#documentación-realización-de-la-web)
+
 
 ### **Paso 5**
 
@@ -182,6 +194,10 @@ Icono ejemplo:
 
 Como podemos observar disponemos de varias funciones como `{{ page.title }}`, las quales resultan muy utiles para ahorrar tiempo y simplificar el codigo. Os dejo un enlace donde explican la mayoría de [FUNCIONES](https://learn.cloudcannon.com/jekyll-cheat-sheet/ "libreria funciones")
 
+
+[Volver arriba](#documentación-realización-de-la-web)
+
+
 ### **Paso 6**
 
 Ahora en cada directorio creado en el paso anterior (que queramos mostrar página web) debemos editar/crear por los menos el *index.html*, en el qual indicamos en la cabezera el *layout* y *title* y a continuación editamos el *body* del documento en html y nos despreocupamos del *head* y el *footer* ya que esta por defecto en `_layouts/default`.
@@ -200,4 +216,8 @@ title: Arnau Esteban Contreras
 </div>
 ```
 
+
+
+
+[Volver arriba](#documentación-realización-de-la-web)
 
