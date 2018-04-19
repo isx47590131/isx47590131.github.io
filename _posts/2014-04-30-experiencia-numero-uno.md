@@ -1,7 +1,10 @@
 ---
 layout: post
-title: "Experiencia numero uno"
-date : 2015-05-24
+title: "Domino's Pizza"
+date : 2015-12-15
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+La tienda está situada al lado de la *Sagrada Familia* de Barcelona, se compone, en la parte inferior por una pizzeria normal, y en la parte superior un *Call Center*, dónde se atendian todas las llamadas de Catalunya. Mi función era realizar pedidos, atender reclamaciones, hacer llamadas/encuestas de calidad.
+Estuve trabajando asta el 2017-06-20, cuando pedí una excedencia por motivos personales.
+
+
