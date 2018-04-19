@@ -8,10 +8,10 @@ div ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
-div ul li, footer ul li {
-    display: inline;
+div ul li {
     margin-right: 20px;
 }
+
 a {
     text-decoration: none;
     color: #999;
@@ -34,6 +34,11 @@ p {
     width: 70%;
 }
 /* footer + img-links*/
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
