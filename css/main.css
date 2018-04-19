@@ -102,6 +102,8 @@ ul.posts li {
 /* nav bar */
 div.navbar {
     text-align: center;
+    background-color: #333;
+
 }
 ul.nav {
     list-style-type: none;
@@ -111,10 +113,10 @@ ul.nav {
     overflow: hidden;
     background-color: #333;
 }
-
-li.nav {
-    float: left;
+ul.class {
+    display: inline-flex;
 }
+
 
 li.nav a {
     display: block;
