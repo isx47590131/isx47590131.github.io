@@ -8,9 +8,6 @@ div ul, footer ul {
     list-style: none;
     font-weight: bold;
 }
-div ul li {
-    margin-right: 20px;
-}
 
 a {
     text-decoration: none;
@@ -71,6 +68,7 @@ footer img:hover{
     transform: rotate(20deg);
 }
 
+/* CV */
 
 
 /* posts */
