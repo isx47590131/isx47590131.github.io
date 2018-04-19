@@ -1,7 +1,9 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
-date: 2014-04-30
+title: "Everis - ItNow"
+date: 2018-01-16
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+Everis es una consultora informática que trebaja en muchos proyectos en todo el mundo, el que me han asignado a mi se llama ItNow dónde me encargo de la automatización de todo lo relacionado con SAN, es decir, conexiones a cabinas de discos, *swichs*, *netapp*, consultas des del terminal, etc. Y aun que solo llevo 3 meses (a media jornada) ya he aprendido un nuevo lenguaje de programación (*perl*), a listar, asignar o desasignar discos, también lo que significa *SAN* (Storage Area Network) y su funcionamento.
+
+![Everis](/img/everis.jpg "Everis") ![ItNow](/img/itnow.jpg "ItNow")
