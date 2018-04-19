@@ -37,7 +37,7 @@ h3, ul.cv {
 }
 
 p {
-    font-size: 1.4em;
+    font-size: 1.25em;
     line-height: 1.4em;
     color: #333;
     text-align: justify;
@@ -69,7 +69,14 @@ footer img:hover{
 }
 
 /* CV */
-
+ul.estudios li {
+    
+    font-size: 1.3em;
+    margin: 20px 250px;
+    width: 70%;
+    list-style-type: circle;
+    
+}
 
 /* posts */
 ul.posts { 
