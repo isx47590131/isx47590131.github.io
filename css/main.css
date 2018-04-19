@@ -47,6 +47,8 @@ p {
     margin: 20px auto;
     width: 70%;
 }
+
+
 /* footer + img-links*/
 footer ul li {
     display: inline;
@@ -69,15 +71,20 @@ footer img:hover{
     transform: rotate(20deg);
 }
 
+
+
 /* posts */
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    width: 70%
 }
 
 ul.posts li {
     list-style: none;
 }
+
+
 
 /* nav bar */
 div.navbar {
