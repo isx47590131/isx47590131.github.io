@@ -7,8 +7,8 @@ title: Mi recorrido laboral
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li><span>{% assign m = page.date | date: "%-m" %}
-{{ page.date | date: "%-d" }}
+	    <li><span>{% assign m = post.date | date: "%-m" %}
+{{ post.date | date: "%-d" }}
 {% case m %}
   {% when '1' %}Enero
   {% when '2' %}Febrero
@@ -23,6 +23,6 @@ title: Mi recorrido laboral
   {% when '11' %}Noviembre
   {% when '12' %}Diciembre
 {% endcase %}
-{{ page.date | date: "%Y" }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{{ post.date | date: "%Y" }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
