@@ -9,6 +9,14 @@ div ul, footer ul {
     font-weight: bold;
 }
 
+/* Img yo*/
+img.person {
+    margin-left: 210px;
+    width: 200px;
+   
+}
+
+/* Cuerpo */
 a {
     text-decoration: none;
     color: #999;
