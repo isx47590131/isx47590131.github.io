@@ -81,7 +81,7 @@ footer img:hover{
 ul.estudios li, ul.competencias li, ul.aptitudes li {
     
     font-size: 1.3em;
-    margin: 20px 250px;
+    margin: 20px 17%;
     width: 70%;
     list-style-type: circle;
     
@@ -90,7 +90,7 @@ ul.estudios li p, ul.competencias li p, ul.aptitudes li p {
     font-size: 1em;
     line-height: 1.4em;
     color: #333;
-    margin: 20px 17%;
+    margin: 20px;
     text-align: justify;
     width: 70%;
 }
